@@ -6,63 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		58478CA12E2A1C0A0065BFDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58478C872E2A1C090065BFDA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58478C8E2E2A1C090065BFDA;
-			remoteInfo = TextScanner;
-		};
-		58478CAB2E2A1C0A0065BFDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58478C872E2A1C090065BFDA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58478C8E2E2A1C090065BFDA;
-			remoteInfo = TextScanner;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		58478C8F2E2A1C090065BFDA /* TextScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		58478CA02E2A1C0A0065BFDA /* TextScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58478CAA2E2A1C0A0065BFDA /* TextScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		58BB33652E2A20240011072C /* Exceptions for "TextScanner" folder in "TextScanner" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 58478C8E2E2A1C090065BFDA /* TextScanner */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		58478C912E2A1C090065BFDA /* TextScanner */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				58BB33652E2A20240011072C /* Exceptions for "TextScanner" folder in "TextScanner" target */,
+			);
 			path = TextScanner;
-			sourceTree = "<group>";
-		};
-		58478CA32E2A1C0A0065BFDA /* TextScannerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TextScannerTests;
-			sourceTree = "<group>";
-		};
-		58478CAD2E2A1C0A0065BFDA /* TextScannerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TextScannerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		58478C8C2E2A1C090065BFDA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58478C9D2E2A1C0A0065BFDA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58478CA72E2A1C0A0065BFDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				58478C912E2A1C090065BFDA /* TextScanner */,
-				58478CA32E2A1C0A0065BFDA /* TextScannerTests */,
-				58478CAD2E2A1C0A0065BFDA /* TextScannerUITests */,
 				58478C902E2A1C090065BFDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				58478C8F2E2A1C090065BFDA /* TextScanner.app */,
-				58478CA02E2A1C0A0065BFDA /* TextScannerTests.xctest */,
-				58478CAA2E2A1C0A0065BFDA /* TextScannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +83,6 @@
 			productReference = 58478C8F2E2A1C090065BFDA /* TextScanner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58478C9F2E2A1C0A0065BFDA /* TextScannerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58478CB72E2A1C0A0065BFDA /* Build configuration list for PBXNativeTarget "TextScannerTests" */;
-			buildPhases = (
-				58478C9C2E2A1C0A0065BFDA /* Sources */,
-				58478C9D2E2A1C0A0065BFDA /* Frameworks */,
-				58478C9E2E2A1C0A0065BFDA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58478CA22E2A1C0A0065BFDA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				58478CA32E2A1C0A0065BFDA /* TextScannerTests */,
-			);
-			name = TextScannerTests;
-			packageProductDependencies = (
-			);
-			productName = TextScannerTests;
-			productReference = 58478CA02E2A1C0A0065BFDA /* TextScannerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		58478CA92E2A1C0A0065BFDA /* TextScannerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58478CBA2E2A1C0A0065BFDA /* Build configuration list for PBXNativeTarget "TextScannerUITests" */;
-			buildPhases = (
-				58478CA62E2A1C0A0065BFDA /* Sources */,
-				58478CA72E2A1C0A0065BFDA /* Frameworks */,
-				58478CA82E2A1C0A0065BFDA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58478CAC2E2A1C0A0065BFDA /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				58478CAD2E2A1C0A0065BFDA /* TextScannerUITests */,
-			);
-			name = TextScannerUITests;
-			packageProductDependencies = (
-			);
-			productName = TextScannerUITests;
-			productReference = 58478CAA2E2A1C0A0065BFDA /* TextScannerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +95,6 @@
 				TargetAttributes = {
 					58478C8E2E2A1C090065BFDA = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					58478C9F2E2A1C0A0065BFDA = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 58478C8E2E2A1C090065BFDA;
-					};
-					58478CA92E2A1C0A0065BFDA = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 58478C8E2E2A1C090065BFDA;
 					};
 				};
 			};
@@ -201,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				58478C8E2E2A1C090065BFDA /* TextScanner */,
-				58478C9F2E2A1C0A0065BFDA /* TextScannerTests */,
-				58478CA92E2A1C0A0065BFDA /* TextScannerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		58478C8D2E2A1C090065BFDA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58478C9E2E2A1C0A0065BFDA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58478CA82E2A1C0A0065BFDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58478C9C2E2A1C0A0065BFDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58478CA62E2A1C0A0065BFDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		58478CA22E2A1C0A0065BFDA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58478C8E2E2A1C090065BFDA /* TextScanner */;
-			targetProxy = 58478CA12E2A1C0A0065BFDA /* PBXContainerItemProxy */;
-		};
-		58478CAC2E2A1C0A0065BFDA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58478C8E2E2A1C090065BFDA /* TextScanner */;
-			targetProxy = 58478CAB2E2A1C0A0065BFDA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		58478CB22E2A1C0A0065BFDA /* Debug */ = {
@@ -397,8 +266,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TextScanner/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextScanner/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -422,8 +293,10 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TextScanner/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextScanner/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,70 +307,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		58478CB82E2A1C0A0065BFDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunxiaojian.TextScannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextScanner";
-			};
-			name = Debug;
-		};
-		58478CB92E2A1C0A0065BFDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunxiaojian.TextScannerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextScanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TextScanner";
-			};
-			name = Release;
-		};
-		58478CBB2E2A1C0A0065BFDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunxiaojian.TextScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TextScanner;
-			};
-			name = Debug;
-		};
-		58478CBC2E2A1C0A0065BFDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunxiaojian.TextScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TextScanner;
 			};
 			name = Release;
 		};
@@ -518,24 +327,6 @@
 			buildConfigurations = (
 				58478CB52E2A1C0A0065BFDA /* Debug */,
 				58478CB62E2A1C0A0065BFDA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58478CB72E2A1C0A0065BFDA /* Build configuration list for PBXNativeTarget "TextScannerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58478CB82E2A1C0A0065BFDA /* Debug */,
-				58478CB92E2A1C0A0065BFDA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58478CBA2E2A1C0A0065BFDA /* Build configuration list for PBXNativeTarget "TextScannerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58478CBB2E2A1C0A0065BFDA /* Debug */,
-				58478CBC2E2A1C0A0065BFDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

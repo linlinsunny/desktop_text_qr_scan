@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSServices</key>
+	<array>
+		<dict/>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>Privacy - Screen Recording Usage Description</key>
+	<string>此应用需要截取屏幕以识别文本和二维码</string>
+</dict>
+</plist>
