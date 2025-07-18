@@ -43,6 +43,8 @@ class ScreenCapture {
             self.handleResult(fullText)
         }
         request.recognitionLevel = .accurate
+        request.recognitionLanguages = ["zh-Hans", "en-US"]
+        request.usesLanguageCorrection = true
 
         try? requestHandler.perform([request])
     }
